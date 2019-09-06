@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-zoop-tests",
+  "name": "cordova-plugin-zoop-tests-runner",
   "displayName": "Cordova plugin Zoop tests",
   "version": "0.0.1",
   "description": "A test application",

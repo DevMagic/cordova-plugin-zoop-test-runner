@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-zoop-tests",
+  "displayName": "Cordova plugin Zoop tests",
+  "version": "0.0.1",
+  "description": "A test application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.0.0",
+    "cordova-plugin-test-framework": "^1.1.6",
+    "cordova-plugin-zoop": "file:../cordova-plugin-zoop",
+    "cordova-plugin-zoop-tests": "file:../cordova-plugin-zoop/tests"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-test-framework": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-zoop": {},
+      "cordova-plugin-zoop-tests": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  }
+}
